@@ -28,3 +28,35 @@ header {
     height: 100vh;
     background: center 75% /cover no-repeat;
 }
+
+.center {
+    justify-content: center;
+    display: flex;
+}
+
+/*Navigation bar*/
+nav {
+    padding: 1rem;
+}
+
+.navbar {
+    background-color: black;
+    text-align: right;
+}
+
+nav>a {
+    text-decoration: none;
+    color: beige;
+    margin: 1rem;
+}
+
+nav>a:hover {
+    color: silver;
+}
+
+.active,
+a:hover {
+    border: 1px solid white;
+    color: white;
+    padding: 0 px;
+}
