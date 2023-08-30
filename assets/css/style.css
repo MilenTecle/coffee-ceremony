@@ -3,6 +3,7 @@
 /*Generic style*/
 body {
    font-family: 'Nunito Sans', sans-serif; 
+   overflow: hidden;
 }
 
 h2, .vertical-center {
@@ -27,6 +28,7 @@ header {
 .page-header {
     height: 100vh;
     background: center 75% /cover no-repeat;
+
 }
 
 .center {
@@ -46,7 +48,7 @@ nav {
 
 nav>a {
     text-decoration: none;
-    color: beige;
+    color: white;
     margin: 1rem;
 }
 
@@ -59,4 +61,22 @@ a:hover {
     border: 1px solid white;
     color: white;
     padding: 0 px;
+}
+
+/*Learn more and sign me up button on home page*/
+.submit {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+#sign-me-up {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#learn-more {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
