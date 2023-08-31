@@ -17,8 +17,10 @@ h2, .vertical-center {
     padding-bottom: 20px;
 }
 
-
-
+h4 {
+    color: white;
+    padding-left: 15px;
+}
 
 /*Background image*/
 #home {
@@ -48,9 +50,10 @@ header a {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+ 
 }
 
-#navbar > li {
+#navbar> li {
     margin-bottom: 1em;
 
 }
@@ -65,25 +68,13 @@ header a {
     display: flex;
 }
 
-/*Main section*/
+
+/*Main section */
 main {
     color: white;
 }
 
-
-/*Navigation bar
-nav {
-    padding: 1rem;
-}
-
-
-
-nav>a {
-    text-decoration: none;
-    color: white;
-    margin: 1rem;
-}
-
+/*
 nav>a:hover {
     color: silver;
 } */
@@ -98,10 +89,12 @@ a:hover {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
+    background-color: black;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     display: none;
+    top: 100%;
 }
 
 /* Nav-toggle */
@@ -135,4 +128,34 @@ nav {
     background-color: black;
     color: white;
     border: 1px solid white;
+}
+
+@media screen and (min-width: 768px) {
+    /*Heder */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-rigth: 1rem;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content*/
 }
