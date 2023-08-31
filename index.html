@@ -19,15 +19,24 @@
 </head>  
 <body>
     <!--Navigation bar-->
-    <nav class="navbar">
-      <a href="#home" class="active" aria-label="Go to the top of the page">Home</a>
-      <a href="" aria-label="Got to coffee-ceremony section">Coffee ceremony</a>
-      <a href="" aria-label="Go to about us section">About us</a>
-      <a href="" aria-label="Got to contact information">Contact</a>
+  <header>
+      <a href="index.html">
+        <h4 id="logo">Coffee ceremony</h4>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        </label>
+  <nav>
+      <ul id="navbar">
+      <li><a href="#home" class="active" aria-label="Go to the top of the page">Home</a></li>
+      <li><a href="" aria-label="Got to coffee-ceremony section">Coffee ceremony</a></li>
+      <li><a href="" aria-label="Go to about us section">About us</a></li>
+      <li><a href="" aria-label="Got to contact information">Contact</a></li>
     </nav>
-
-    <!--Header-->
-    <header id="home" class="page-header center">
+    </header>
+    <!--Main section-->
+<main>
+    <section id="home" class="page-header center">
     <div class="vertical-center">
     <h2>Try a new way of making coffee. Learn about<br>the coffee ceremony of Ethiopia and Eritrea</h2>
 
@@ -39,7 +48,8 @@
     <input type="submit" class="submit" id="sign-me-up" value="Sign me up">
 
   </div>
-</header>
+  </section>
 
+</main>
 </body>
 </html>

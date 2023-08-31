@@ -17,17 +17,43 @@ h2, .vertical-center {
     padding-bottom: 20px;
 }
 
-/*Header*/
-header {
-    color: white;
-    background-color: black;
-}
+
+
 
 /*Background image*/
 #home {
     background-image: url('../images/home-page-image.webp');
 }
 
+
+/*Header*/
+header {
+    background-color: black;
+    padding: 0 1 rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#navbar > li {
+    margin-bottom: 1em;
+
+}
 .page-header {
     height: 100vh;
     background: center 30% /cover no-repeat;
@@ -39,15 +65,18 @@ header {
     display: flex;
 }
 
-/*Navigation bar*/
+/*Main section*/
+main {
+    color: white;
+}
+
+
+/*Navigation bar
 nav {
     padding: 1rem;
 }
 
-.navbar {
-    background-color: black;
-    text-align: right;
-}
+
 
 nav>a {
     text-decoration: none;
@@ -57,13 +86,35 @@ nav>a {
 
 nav>a:hover {
     color: silver;
-}
+} */
 
 .active,
 a:hover {
     border: 1px solid white;
     color: white;
     padding: 0 5px;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+}
+
+/* Nav-toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle-label {
+    font-size: 1rem;
 }
 
 /*Learn more and sign me up button on home page*/
