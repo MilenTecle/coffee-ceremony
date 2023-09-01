@@ -145,6 +145,16 @@ nav {
     padding-top: 100px;
 }
 
+#roasting,
+#brewing,
+#serving {
+    border: 1px solid black;
+    box-sizing: box-border;
+}
+
+#serving {
+    margin-bottom: 4em;
+}
 
 /* Footer */
 
