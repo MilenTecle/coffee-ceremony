@@ -8,12 +8,13 @@ body {
    margin: 0;
 }
 
-h2, .vertical-center {
+#intro-text, .v-center {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 2.5rem;
     align-self: center;
     padding-top: 100px;
     padding-right: 70px;
+    color: white;
    
 }
 
@@ -26,6 +27,13 @@ h4 {
 /*Background image*/
 #home {
     background-image: url('../images/home-page-image.webp');
+}
+
+
+.background-image {
+    height: 100vh;
+    background: center 20% /cover no-repeat;
+
 }
 
 
@@ -59,11 +67,7 @@ header a {
     margin-bottom: 0 1em;
 
 }
-.page-header {
-    height: 100vh;
-    background: center 20% /cover no-repeat;
 
-}
 
 .center {
     justify-content: center;
@@ -159,9 +163,51 @@ nav {
     text-align: left;
 }
 
+
 #serving {
     margin-bottom: 4em;
 }
+
+/* Div images to the sections roasting, brewing and serving */
+
+#roasting {
+    background-image: url('../images/roasting-coffee.webp');
+    background-size: cover;
+    flex-wrap: wrap;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#brewing {
+    background-image: url('../images/brewing-coffee.webp');
+    background-size: cover;
+    flex-wrap: wrap;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+#serving {
+    background-image: url('../images/serving-coffee.webp');
+    background-size: cover;
+    flex-wrap: wrap;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Style the text in the divs */
+
+#roasting > p,
+#brewing > p,
+#serving > p {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+ 
+}
+
 
 /* Footer */
 
@@ -197,7 +243,7 @@ footer > a {
     color: white;
 }
 
-/* Media query tablets and larger screens*/
+/* Media query tablets and larger screens, 768 px and up*/
 
 @media screen and (min-width: 768px) {
     /*Heder */
@@ -227,4 +273,18 @@ footer > a {
     }
 
     /* Main content*/
+}
+
+
+/* Large devices, laptops and desktops, 992 px and up */
+@media screen and (min-width: 992px) {
+    .coffee {
+        max-width: 50%;
+    }
+}
+/* Very large laptops and desktops, 1200 px and up */
+@media screen and (min-width: 1200px) {
+    .coffee {
+        max-width: 50%;
+    }
 }
