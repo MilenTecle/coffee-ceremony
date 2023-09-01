@@ -134,6 +134,12 @@ nav {
 }
 
 /* Section styling on coffee ceremony page*/
+
+.introduction {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
 .coffee {
     text-align: center;
     font-size: 2rem; 
@@ -142,7 +148,7 @@ nav {
 }
 
 #ceremony {
-    padding-top: 100px;
+    text-align: left;
 }
 
 #roasting,
@@ -150,6 +156,7 @@ nav {
 #serving {
     border: 1px solid black;
     box-sizing: box-border;
+    text-align: left;
 }
 
 #serving {
