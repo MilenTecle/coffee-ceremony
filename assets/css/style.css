@@ -3,7 +3,7 @@
 /*Generic style*/
 body {
    font-family: 'Nunito Sans', sans-serif; 
-   overflow: hidden;
+   overflow: auto;
    background-color: whitesmoke;
    margin: 0;
 }
@@ -71,11 +71,6 @@ header a {
 }
 
 
-/*Main section */
-main {
-    color: white;
-}
-
 /*
 nav>a:hover {
     color: silver;
@@ -137,6 +132,19 @@ nav {
     font-size: 1rem;
     border-radius: 2px;
 }
+
+/* Section styling on coffee ceremony page*/
+.coffee {
+    text-align: center;
+    font-size: 2rem; 
+    padding: 50px;
+
+}
+
+#ceremony {
+    padding-top: 100px;
+}
+
 
 /* Footer */
 
