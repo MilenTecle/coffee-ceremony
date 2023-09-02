@@ -22,6 +22,7 @@ body {
 h4 {
     color: white;
     padding-left: 15px;
+    
 }
 
 /*Background image*/
@@ -109,6 +110,11 @@ nav {
 
 #nav-toggle-label {
     font-size: 1rem;
+}
+
+.fa-solid, .fas {
+    color: white;
+    padding-right: 1em;
 }
 
 /*Learn more and sign me up button on home page*/
