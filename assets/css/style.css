@@ -65,8 +65,8 @@ header a {
  
 }
 
-#navbar> li {
-    margin-bottom: 0 1em;
+#navbar > li {
+    margin-bottom: 0;
 
 }
 
@@ -87,6 +87,12 @@ a:hover {
     border: 1px solid white;
     color: white;
     padding: 0 5px;
+}
+
+/* Removes the border on click around the logo */
+#logo,
+a:hover {
+    border: none;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -181,7 +187,7 @@ nav {
 #brewing,
 #serving {
     border: 1px solid black;
-    box-sizing: box-border;
+    box-sizing: border-box;
     text-align: left;
 }
 
@@ -275,7 +281,7 @@ footer > a {
 /* Media query tablets and larger screens, 768 px and up*/
 
 @media screen and (min-width: 768px) {
-    /*Heder */
+    /*Header */
     nav {
         display: block;
         position: relative;
