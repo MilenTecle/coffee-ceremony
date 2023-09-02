@@ -2,7 +2,7 @@
 
 Coffee ceremony is a website intended for coffee lovers and coffee drinkers with a curiosity and interest in other traditions and cultures. Coffee ceremony will introduce the user to the coffe ceremony of Ethiopia and Eritrea. The user will be offered an oppurtunity to sign up for a class and learn how to make the traditonal coffee from start to end.
 
-The live link can be found here - [Coffee ceremony] (https...)
+The live link can be found here - [Coffee ceremony](https://milentecle.github.io/coffee-ceremony/)
 
 ![Coffee ceremony Am I Responsive Image](docs/readme_images/am-i-responsive.png)
 
@@ -33,7 +33,57 @@ The imagages used on the Coffee ceremony site are of great importance for the us
 The colour scheme of the website is black 
 
 ### Fonts
-The Nunito Sans font is the font used on the whole website. The font was imported via [Google Fonts[(https//:fonts.google.com)]. Sans Serif is the backup font.
+The Nunito Sans font is the font used on the whole website. The font was imported via [Google Fonts](https//:fonts.google.com). Sans Serif is the backup font.
+
+## Wireframes
+
+
+
+
+
+## Features
+ - ### Navigation
+
+
+- ### Home Page Image
+
+- ### The Ceremony Page
+
+- ### About us Page
+
+- ### Contact Page
+
+- ### Footer
+
+
+## Testing
+
+### Validator Testing
+ - ### HTML
+ - ### CSS
+ - ### Accessibility
+
+
+### FormTesting 
+
+### Links Testing
+
+### Browser Testing
+
+### Device Testing
+
+
+
+## Deployment
+
+The project was deployed using Github pages with the following steps:
+1. Go to the repository on Github.com.
+2. Select 'Settings' towards the top of the page.
+3. Select 'Pages' from the left menu bar.
+4. Under 'Source', choose the preselected 'Branch' from the dropdown menu and then select the main branch.
+5. Deployment is confirmed after a couple of minutes by this message "Your site is published at" and there is a link to the web address.
+
+The live link can be found here - [Coffee ceremony](https://milentecle.github.io/coffee-ceremony/)
 
 
 
