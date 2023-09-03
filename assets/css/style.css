@@ -25,9 +25,14 @@ h4 {
     
 }
 
-/*Background image*/
+/*Background image, home page*/
 #home {
     background-image: url('../images/home-page-image.webp');
+}
+
+/* Background image, about us page*/
+#page-img {
+    background-image: url('../images/about-us-page.webp');
 }
 
 
@@ -245,6 +250,16 @@ nav {
  
 }
 
+/* About us page*/
+.about-us {
+    padding-top: 100px;
+    margin: 2em;
+    text-align: left;
+}
+
+#page-three {
+
+}
 
 /* Footer */
 
