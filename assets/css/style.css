@@ -30,18 +30,33 @@ h4 {
     background-image: url('../images/home-page-image.webp');
 }
 
-/* Background image, about us page*/
-#page-img {
-    background-image: url('../images/about-us-page.webp');
-}
-
-
 .background-image {
     height: 100vh;
     background: center 20% /cover no-repeat;
 
 }
 
+/* Background image, about us page*/
+#page-three {
+    background-image: url('../images/about-us-page.webp');
+}
+
+.about-us {
+    height: 50vh;
+    background: center 20% /cover no-repeat;
+}
+
+
+#opening > p {
+    margin: 2em;
+    text-align: left;
+}
+
+#offering, #pricing {
+    margin: 2em;
+    text-align: left;
+
+}
 
 /*Header*/
 header {
@@ -249,14 +264,6 @@ nav {
     margin: 0;
  
 }
-
-/* About us page*/
-.about-us {
-    padding-top: 100px;
-    margin: 2em;
-    text-align: left;
-}
-
 
 
 /* Footer */
