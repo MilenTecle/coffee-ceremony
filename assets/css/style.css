@@ -92,6 +92,8 @@ a:hover {
 #logo,
 a:hover {
     border: none;
+    font-size: 120%;
+    margin-bottom: 0;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -121,6 +123,7 @@ nav {
 .fa-solid, .fas {
     color: white;
     padding-right: 1em;
+    font-size: 150%;
 }
 
 /*Learn more and sign me up button on home page*/
