@@ -63,11 +63,12 @@ h4 {
     text-align: left;
 }
 
+
 #offering, #pricing {
     margin: 2em;
     text-align: left;
-
 }
+
 
 /*Header*/
 header {
@@ -174,13 +175,21 @@ nav {
   
 }
 
-#learn-more, #book {
+/* Buttons */
+#learn-more, 
+#book,
+#booking {
     background-color: black;
     color: white;
     border: 1px solid white;
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 2px;
+}
+
+#booking {
+    margin-bottom: 200px;
+    margin-left: 100px;
 }
 
 /* Section styling on coffee ceremony page*/
@@ -299,7 +308,7 @@ nav {
     margin: 15px 0;
 }
 
-.perosnal-info {
+.personal-info {
     width: 90%;
     height: 20px;
     margin: 10px 0;
