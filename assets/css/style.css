@@ -46,6 +46,16 @@ h4 {
     background: center 20% /cover no-repeat;
 }
 
+/* Background image, booking form*/
+#page-four {
+    background-image: url('../images/bg-image-form.webp')
+}
+
+.book-class {
+    height: 50vh;
+    background: center 20% /cover no-repeat;
+}
+
 
 #opening > p {
     margin: 2em;
