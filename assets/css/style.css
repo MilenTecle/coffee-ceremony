@@ -54,6 +54,7 @@ h4 {
 .book-class {
     height: 50vh;
     background: center 20% /cover no-repeat;
+    position: relative;
 }
 
 
@@ -173,7 +174,7 @@ nav {
   
 }
 
-#learn-more {
+#learn-more, #book {
     background-color: black;
     color: white;
     border: 1px solid white;
@@ -275,6 +276,38 @@ nav {
  
 }
 
+/* The booking form styles*/
+
+.form {
+    padding: 30px;
+    font-size: 90%;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    color: black;
+    max-width: 100%;
+    left: 10%;
+}
+
+.sign-up-form {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 10px;
+}
+
+#optional-message {
+    width: 95%;
+    height: 100px;
+    margin: 15px 0;
+}
+
+.perosnal-info {
+    width: 90%;
+    height: 20px;
+    margin: 10px 0;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
 
 /* Footer */
 
