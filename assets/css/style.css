@@ -205,7 +205,7 @@ nav {
     text-transform: uppercase;
     font-size: 1em;
     text-align: center;
-    padding-bottom: 2.5em;
+    padding-bottom: 2em;
 }
 
 #ceremony-text {
@@ -222,7 +222,7 @@ nav {
 
 #ceremony {
     text-align: left;
-    padding-bottom: 2.5em;
+    margin: -10px;
 }
 
 #roasting,
@@ -240,24 +240,22 @@ nav {
     background-image: url('../images/roasting-coffee.webp');
     background-size: cover;
     flex-wrap: wrap;
-    height: 200px;
+    height: 250px;
     display: flex;
     align-items: flex-end;
-    width: 60vw;
-    margin: 10% 0;
-    padding: 10%;
+    width: 90vw;
+    margin-left: -25px;
 }
 
 #brewing {
     background-image: url('../images/brewing-coffee.webp');
     background-size: cover;
     flex-wrap: wrap;
-    height: 200px;
+    height: 250px;
     display: flex;
     align-items: flex-end;
-    width: 60vw;
-    margin: 10% 0;
-    padding: 10%;
+    width: 90vw;
+    margin-left: -25px;
     
 }
 
@@ -265,12 +263,11 @@ nav {
     background-image: url('../images/serving-coffee.webp');
     background-size: cover;
     flex-wrap: wrap;
-    height: 200px;
+    height: 250px;
     display: flex;
     align-items: flex-end;
-    width: 60vw;
-    margin: 10% 0;
-    padding: 10%;
+    width: 90vw;
+    margin-left: -25px;
     margin-bottom: 100px;
 }
 
@@ -330,6 +327,14 @@ fieldset {
     text-align: center;
 }
 
+#contact {
+    padding-top: 50px;
+}
+
+#google-map {
+    margin-bottom: 200px;
+    border: 2px solid white;
+}
 /* Footer */
 
 footer {
