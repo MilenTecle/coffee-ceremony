@@ -52,7 +52,7 @@ h4 {
 }
 
 .book-class {
-    height: 500vh;
+    height: 50vh;
     background: center 20% /cover no-repeat;
     position: relative;
 }
@@ -321,6 +321,13 @@ nav {
 
 fieldset {
     margin-bottom: 15px;
+}
+
+/* Map and address section */
+
+#find-us {
+    padding-top: 300px;
+    text-align: center;
 }
 
 /* Footer */
