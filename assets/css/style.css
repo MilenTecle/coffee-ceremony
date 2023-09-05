@@ -52,7 +52,7 @@ h4 {
 }
 
 .book-class {
-    height: 50vh;
+    height: 500vh;
     background: center 20% /cover no-repeat;
     position: relative;
 }
@@ -189,7 +189,7 @@ nav {
 
 #booking {
     margin-bottom: 200px;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 
 /* Section styling on coffee ceremony page*/
@@ -287,11 +287,16 @@ nav {
 
 /* The booking form styles*/
 
+#book-your-class {
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+}
+
 .form {
     padding: 30px;
     font-size: 90%;
     letter-spacing: 2px;
-    border: 1px solid white;
     color: black;
     max-width: 100%;
     left: 10%;
