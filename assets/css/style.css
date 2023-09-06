@@ -18,7 +18,6 @@ body {
    
 }
 
-
 h4 {
     color: white;
     padding-left: 15px;
@@ -159,11 +158,6 @@ nav {
 }
 
 /*Learn more and sign me up button on home page*/
-.submit {
-    padding: 5px;
-    font-size: 1rem;
-   
-}
 
 #sign-me-up {
     background-color: white;
@@ -172,7 +166,17 @@ nav {
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 2px;
-  
+}
+
+#learn-more {
+    margin: 10px;
+}
+
+#sign-me-up, 
+#learn-more,
+#booking,
+a:hover {
+    text-decoration: none;
 }
 
 /* Buttons */
@@ -188,7 +192,7 @@ nav {
 }
 
 /* Coffee ceremony page*/
-#booking {
+#booking-button {
     margin-bottom: 200px;
     margin-left: 120px;
 }
