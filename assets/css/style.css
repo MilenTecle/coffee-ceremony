@@ -12,8 +12,9 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5rem;
     align-self: center;
-    padding: 0 1em;
+    padding: 0.5em;
     color: white;
+    margin: 5px;
    
 }
 
@@ -52,7 +53,6 @@ h4 {
 }
 
 .book-class {
-    height: 100vh;
     background: center 20% /cover no-repeat;
     position: relative;
 }
