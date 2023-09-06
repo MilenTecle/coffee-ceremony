@@ -52,7 +52,7 @@ h4 {
 }
 
 .book-class {
-    height: 50vh;
+    height: 100vh;
     background: center 20% /cover no-repeat;
     position: relative;
 }
@@ -187,9 +187,15 @@ nav {
     border-radius: 2px;
 }
 
+/* Coffee ceremony page*/
 #booking {
     margin-bottom: 200px;
     margin-left: 120px;
+}
+
+/* Contact page */
+#book {
+    margin-left: 100px;
 }
 
 /* Section styling on coffee ceremony page*/
@@ -284,7 +290,7 @@ nav {
 
 /* The booking form styles*/
 
-#book-your-class {
+.book-your-class {
     padding-top: 50px;
     text-align: center;
     color: black;
@@ -323,17 +329,27 @@ fieldset {
 /* Map and address section */
 
 #find-us {
-    padding-top: 300px;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-left: 1em
+}
+
+.map > p {
+    text-align: center;
+    font-size: 1.5em;
 }
 
 #contact {
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 #google-map {
     margin-bottom: 200px;
-    border: 2px solid white;
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
 }
 /* Footer */
 
