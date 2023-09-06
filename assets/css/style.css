@@ -323,7 +323,9 @@ nav {
 }
 
 fieldset {
-    margin-bottom: 15px;
+    margin: 15px 0;
+    width: 90%;
+    padding: 5px;
 }
 
 /* Map and address section */
