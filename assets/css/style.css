@@ -225,7 +225,7 @@ a:hover {
 
 .coffee {
     text-align: center;
-    padding: 0 50px;
+    padding: 0 40px;
     padding-bottom: 1em;
 
 }
@@ -235,13 +235,6 @@ a:hover {
     margin: -10px;
 }
 
-#roasting,
-#brewing,
-#serving {
-    border: 1px solid black;
-    box-sizing: border-box;
-    text-align: left;
-}
 
 
 /* Div images to the sections roasting, brewing and serving */
@@ -278,18 +271,27 @@ a:hover {
     align-items: flex-end;
     width: 90vw;
     margin-left: -25px;
-    margin-bottom: 100px;
 }
+
 
 /* Style the text in the divs */
 
-#roasting > p,
-#brewing > p,
-#serving > p {
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    margin: 0;
- 
+
+.text-block {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: left;
+    width: 90vw;
+    margin-left: -25px;
+}
+
+.steps {
+    margin-left: 100px;
+    margin-bottom: -5px;
+}
+
+#last-block {
+    margin-bottom: 120px;
 }
 
 /* The booking form styles*/
