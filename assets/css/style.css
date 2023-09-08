@@ -169,7 +169,7 @@ nav {
     border-radius: 2px;
     position: fixed;
     right: 51%;
-    top: 50%;
+    top: 55%;
     margin-top: 50px;
 }
 
@@ -177,7 +177,7 @@ nav {
     margin-top: 50px;
     position: fixed;
     left: 50%;
-    top: 50%;
+    top: 55%;
 }
 
 #sign-me-up, 
@@ -406,7 +406,7 @@ footer > a {
 @media screen and (max-width: 450px) {
     #learn-more,
     #sign-me-up{
-        margin-top: 70px;
+        margin-top: 80px;
     }
 
     /* This will center the coffee brewing on smaller screens*/
