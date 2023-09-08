@@ -428,7 +428,7 @@ footer > a {
     }
 /* This will center the coffee brewing on smaller screens*/
     #home {
-        background-position-x: -200px;
+        background-position-x: 40%;
     }
 }
 
@@ -436,8 +436,24 @@ footer > a {
 
 /* Media query tablets and larger screens, 768 px and up*/
 @media screen and (min-width: 768px) {
-    /*Header */
-    nav {
+   
+
+    /* This will center the coffee brewing*/
+    #home {
+        background-position-x: 40%;
+    }
+
+    #learn-more,
+    #sign-me-up{
+        margin-top: 30px;
+    }
+}
+
+
+/* Large devices, laptops and desktops, 992px and up */
+@media screen and (min-width: 992px) {
+     /*Header */
+     nav {
         display: block;
         position: relative;
         width: fit-content;
@@ -463,25 +479,12 @@ footer > a {
         letter-spacing: 4px;
     }
 
-    /* This will center the coffee brewing*/
-    #home {
-        background-position-x: -200px;
-    }
-
-    #learn-more,
-    #sign-me-up{
-        margin-top: 30px;
-    }
-}
-
-
-/* Large devices, laptops and desktops, 992 px and up */
-@media screen and (min-width: 992px) {
     .coffee {
         max-width: 50%;
     }
+    
     #home {
-        background-position-x: -100px;
+        background-position-x: 40%;
     }
 
 }
