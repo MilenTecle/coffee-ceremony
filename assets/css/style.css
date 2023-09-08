@@ -10,11 +10,12 @@ body {
 
 #intro-text, .v-center {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.5rem;
     align-self: center;
-    padding: 0.5em;
+    position: fixed;
+    left: 5%;
+    top: 40%;
     color: white;
-    margin: 5px;
+    text-align: left;
    
 }
 
@@ -166,10 +167,17 @@ nav {
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 2px;
+    position: fixed;
+    right: 51%;
+    top: 50%;
+    margin-top: 50px;
 }
 
 #learn-more {
-    margin: 10px;
+    margin-top: 50px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
 }
 
 #sign-me-up, 
@@ -393,8 +401,40 @@ footer > a {
     color: white;
 }
 
-/* Media query tablets and larger screens, 768 px and up*/
 
+/*Smaller screens, mobile devices*/
+@media screen and (max-width: 450px) {
+    #learn-more,
+    #sign-me-up{
+        margin-top: 70px;
+    }
+
+    /* This will center the coffee brewing on smaller screens*/
+    #home {
+        background-position-x: 40%;
+    }
+
+    v.center {
+        font-size: 80%;
+    }
+}
+
+
+
+@media screen and (min-width: 576px) {
+    #learn-more,
+    #sign-me-up{
+        margin-top: 50px;
+    }
+/* This will center the coffee brewing on smaller screens*/
+    #home {
+        background-position-x: -200px;
+    }
+}
+
+
+
+/* Media query tablets and larger screens, 768 px and up*/
 @media screen and (min-width: 768px) {
     /*Header */
     nav {
@@ -423,20 +463,31 @@ footer > a {
         letter-spacing: 4px;
     }
 
-    /* Main content*/
+    /* This will center the coffee brewing*/
+    #home {
+        background-position-x: -200px;
+    }
+
+    #learn-more,
+    #sign-me-up{
+        margin-top: 30px;
+    }
 }
 
 
-/* Large devices, laptops and desktops, 992 px and up 
+/* Large devices, laptops and desktops, 992 px and up */
 @media screen and (min-width: 992px) {
     .coffee {
         max-width: 50%;
     }
+    #home {
+        background-position-x: -100px;
+    }
+
 }
-/* Very large laptops and desktops, 1200 px and up 
+/* Very large laptops and desktops, 1200 px and up */
 @media screen and (min-width: 1200px) {
     .coffee {
         max-width: 50%;
     }
 }
-*/
