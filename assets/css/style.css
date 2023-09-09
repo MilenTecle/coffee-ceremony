@@ -163,7 +163,7 @@ nav {
 #sign-me-up {
     background-color: white;
     color: black;
-    border: 1px solid black;
+    border: 1px solid #c49c64;
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 2px;
@@ -192,8 +192,8 @@ a:hover {
 #book,
 #booking {
     background-color: black;
-    color: white;
-    border: 1px solid white;
+    color: #c49c64;
+    border: 1px solid #c49c64;
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 2px;
@@ -208,6 +208,9 @@ a:hover {
 /* Contact page */
 #book {
     margin-left: 30%;
+    padding: 10px 30px;
+    margin-top: 50px;
+    font-size: 1.5rem;
 }
 
 /* Section styling on coffee ceremony page*/
@@ -325,7 +328,7 @@ a:hover {
 }
 
 legend {
-    font-weight: normal;
+    font-weight: bold;
 }
 
 #optional-message {
@@ -355,6 +358,7 @@ fieldset {
     padding: 5px;
     border-radius: 2px;
     border: 2px solid gray;
+    font-weight: normal;
 }
 
 /* Map and address section */
@@ -366,10 +370,6 @@ fieldset {
     margin-left: 1em
 }
 
-.map > p {
-    text-align: center;
-    font-size: 1.5em;
-}
 
 #contact {
     padding-top: 100px;
@@ -381,13 +381,12 @@ fieldset {
    color: black; 
 }
 
-#phone-email{
+#phone-email{ 
     font-size: 1.5rem;
-    text-align:center;
 }
 
 #google-map {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     justify-content: center;
     display: flex;
     max-width: 100%;
@@ -404,10 +403,6 @@ footer {
     z-index: 99
 }
 
-footer p {
-    color: white;
-    text-align: center;
-}
 
 footer > a {
  text-decoration: none;
