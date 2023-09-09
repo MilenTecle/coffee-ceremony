@@ -207,7 +207,7 @@ a:hover {
 
 /* Contact page */
 #book {
-    margin-left: 100px;
+    margin-left: 30%;
 }
 
 /* Section styling on coffee ceremony page*/
@@ -311,35 +311,50 @@ a:hover {
 }
 
 .form {
-    padding: 30px;
-    font-size: 90%;
+    padding: 80px 10% 0 10%;
+    font-size: 120%;
     letter-spacing: 2px;
-    color: black;
-    max-width: 100%;
-    left: 10%;
+    width: fit-content;
+   
 }
 
 .sign-up-form {
     background-color: rgba(255, 255, 255, 0.6);
-    padding-left: 10px;
+    padding-left:20px;
+    font-weight: bold;
+}
+
+legend {
+    font-weight: normal;
 }
 
 #optional-message {
-    width: 95%;
+    width: 90%;
     height: 100px;
-    margin: 15px 0;
+    margin: 10px 0;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 120%;
+    border: 2px solid gray;
+
 }
 
 .personal-info {
     width: 90%;
-    height: 20px;
-    margin: 10px 0;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 120%;
+    border: 2px solid gray;
 }
 
 fieldset {
-    margin: 15px 0;
+    margin: 10px 0;
     width: 90%;
     padding: 5px;
+    border-radius: 2px;
+    border: 2px solid gray;
 }
 
 /* Map and address section */
@@ -358,6 +373,17 @@ fieldset {
 
 #contact {
     padding-top: 100px;
+}
+
+#contact-info {
+    font-size: 2rem;
+    text-align: center;
+   color: black; 
+}
+
+#phone-email{
+    font-size: 1.5rem;
+    text-align:center;
 }
 
 #google-map {
