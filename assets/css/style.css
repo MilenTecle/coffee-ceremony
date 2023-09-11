@@ -330,7 +330,7 @@ a:hover {
 
 .sign-up-form {
     background-color: rgba(255, 255, 255, 0.6);
-    padding-left:20px;
+    padding-left:5%;
     font-weight: bold;
 }
 
@@ -380,30 +380,28 @@ fieldset {
 
 /* Map and address section */
 #find-us {
-    text-align: center;
     text-transform: uppercase;
-    font-size: 1.5em;
-    margin-left: 1em;
-    color: #545454;
+    margin: 150px 0 20px;
 }
 
-#contact {
-    padding-top: 100px;
+
+.contact-details {
+    display: flex;
+    justify-content: center;
 }
 
 #contact-info {
     font-size: 2rem;
-    text-align: center;
-   color: #545454; 
+    margin-top: 150px;
 }
 
-#phone-email{ 
+#phone-email { 
     font-size: 1.5rem;
     color: #545454;
 }
 
 #google-map {
-    margin-bottom: 150px;
+    margin-bottom: 5% 5% 150px;
     justify-content: center;
     display: flex;
     max-width: 100%;
@@ -532,6 +530,16 @@ footer > a {
     #booking-button {
         margin-top: 10%;
     }
+
+    iframe {
+        width: 100%;
+    }
+
+    /* Form on contact page */
+    .form {
+        max-width: 60%;
+        margin: 0 auto;
+    }
 }
 
 
@@ -591,6 +599,11 @@ footer > a {
         font-size: 2rem;
     }
 
+    /* Form on contact page*/
+    .form {
+        max-width: 50%;
+        margin: 0 auto; 
+    }
 }
 
 
@@ -665,6 +678,12 @@ footer > a {
     #ceremony-text,
     #how {
         font-size: 1.5rem;
+    }
+
+    /* Form on contact page*/
+    .form {
+        max-width: 40%;
+        margin: 0 auto;
     }
 
 }
@@ -745,5 +764,15 @@ footer > a {
     #booking {
         font-size: 2rem;
         margin-left: 40%;
+    }
+
+     /* Contact page*/
+    #google-map {
+        margin: 2% 2% 150px;
+    }
+    
+    .form {
+        max-width: 30%;
+        margin: 0 auto;
     }
 }
