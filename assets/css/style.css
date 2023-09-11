@@ -47,7 +47,7 @@ h4 {
 
 /* Background image, booking form*/
 #page-four {
-    background-image: url('../images/new-form-img.webp');
+    background-image: url('../images/new-form-img2.webp');
 }
 
 .book-class {
@@ -492,6 +492,11 @@ footer > a {
     #find-us {
         margin-top: 100px;
     }
+
+    /* center the coffee pot in the bg-image*/
+    #page-four {
+        background-position-x: 65%;
+    }
 }
 
 
@@ -564,6 +569,12 @@ footer > a {
         max-width: 60%;
         margin: 0 auto;
     }
+
+    /* This will center the coffee brewing on smaller screens*/
+    #home {
+        background-position-x: 80%;
+    }
+
 }
 
 
