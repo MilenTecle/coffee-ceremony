@@ -20,7 +20,6 @@ body {
 }
 
 h4 {
-    color: white;
     padding-left: 15px;
     letter-spacing: 4px;
     
@@ -54,22 +53,9 @@ h4 {
 
 .book-class {
     background: center 20% /cover no-repeat;
-    position: relative;
 }
 
 
-#opening > p {
-    margin: 2em;
-    text-align: left;
-    color: #545454;
-}
-
-
-#offering, #pricing {
-    margin: 2em;
-    text-align: left;
-    color: #545454;
-}
 
 
 /*Header*/
@@ -192,7 +178,7 @@ a:hover {
     text-decoration: none;
 }
 
-/* Buttons */
+/* Generic button styles */
 #learn-more, 
 #book,
 #booking {
@@ -201,31 +187,40 @@ a:hover {
     border-radius: 2px;
 }
 
+
+
+/* About us page*/
+/* Text*/
+.offering {
+    margin: 0 auto;
+    padding: 5px;
+    text-align: left;
+    color: #545454;
+    max-width: 90vw;
+    flex-wrap: wrap;
+}
+/* Fix the between the image and the text*/
+#offering-intro {
+    margin-top: 10%;
+}
+
+/*Button*/
 #booking {
-    margin-top: 50px;
-    margin-left: 30%;
+    margin-left: 35%;
     background-color: #614a3d;
     color: white;
+}
+
+/*Button*/
+#booking-button {
+    margin-bottom: 200px;
+    margin-top: 15%;
 }
 
 
 /* Coffee ceremony page*/
-#booking-button {
-    margin-bottom: 200px;
-}
 
-/* Contact page */
-#book{
-    margin-left: 30%;
-    padding: 5px 30px;
-    margin-top: 50px;
-    font-size: 1.5rem;
-    background-color: #614a3d;
-    color: white;
-}
-
-/* Section styling on coffee ceremony page*/
-
+/* Section styling */
 .introduction {
     text-align: center;
     text-transform: uppercase;
@@ -261,9 +256,7 @@ a:hover {
 }
 
 
-
 /* Div images to the sections roasting, brewing and serving */
-
 #roasting {
     background-image: url('../images/roasting-coffee.webp');
     background-size: cover;
@@ -299,7 +292,7 @@ a:hover {
 }
 
 
-/* Style the text in the divs */
+/* Styles the text in the divs */
 .text-block {
     flex-wrap: wrap;
     display: flex;
@@ -317,8 +310,10 @@ a:hover {
     margin-bottom: 120px;
 }
 
-/* The booking form styles*/
 
+/* Contact page */
+
+/* The booking form styles*/
 .book-your-class {
     padding-top: 50px;
     text-align: center;
@@ -373,13 +368,23 @@ fieldset {
     font-weight: normal;
 }
 
-/* Map and address section */
+/*Button*/
+#book { 
+    margin: 0 0 20px 30%;
+    padding: 5px 30px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    background-color: #614a3d;
+    color: white;
+}
 
+/* Map and address section */
 #find-us {
     text-align: center;
     text-transform: uppercase;
     font-size: 1.5em;
-    margin-left: 1em
+    margin-left: 1em;
+    color: #545454;
 }
 
 #contact {
@@ -494,6 +499,7 @@ footer > a {
         text-align: left;
         max-width: 90vw;
         margin-left: -5px;
+        font-size: 1.5rem;
     }
 
     #ceremony {
@@ -510,6 +516,22 @@ footer > a {
         font-size: 1.5rem;
     }
     
+    /* About us page */
+    .offering {
+        margin: 0 auto;
+        padding: 5px;
+        max-width: 80vw;
+        flex-wrap: wrap;
+        font-size: 1.5rem;
+    }
+    /* Button */
+    #booking {
+        font-size: 1.5rem;
+    }
+
+    #booking-button {
+        margin-top: 10%;
+    }
 }
 
 
@@ -564,6 +586,11 @@ footer > a {
     #how {
         font-size: 1.5rem;
     }
+
+    #booking {
+        font-size: 2rem;
+    }
+
 }
 
 
@@ -705,5 +732,18 @@ footer > a {
     .coffee {
         max-width: 50vw;
         margin: auto;
+    }
+
+    /* About us page*/
+    .offering {
+        margin: 0 auto;
+        max-width: 60vw;
+        flex-wrap: wrap;
+        font-size: 2rem;
+    }
+
+    #booking {
+        font-size: 2rem;
+        margin-left: 40%;
     }
 }
