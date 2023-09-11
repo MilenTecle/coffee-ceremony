@@ -20,9 +20,8 @@ body {
 }
 
 h4 {
-    padding-left: 15px;
     letter-spacing: 4px;
-    
+
 }
 
 /*Background image, home page*/
@@ -116,6 +115,10 @@ a:hover {
     margin-bottom: 10px;
 }
 
+#logo {
+    padding-left: 10px;
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -140,7 +143,7 @@ nav {
     font-size: 1rem;
 }
 
-.fa-solid, .fas {
+.hamburger {
     color: white;
     padding-right: 1em;
     font-size: 150%;
@@ -188,7 +191,6 @@ a:hover {
 }
 
 
-
 /* About us page*/
 /* Text*/
 .offering {
@@ -198,10 +200,15 @@ a:hover {
     color: #545454;
     max-width: 90vw;
     flex-wrap: wrap;
+    font-size: 1em;
 }
 /* Fix the between the image and the text*/
 #offering-intro {
     margin-top: 10%;
+}
+
+ul > li {
+    margin-bottom: 10px;
 }
 
 /*Button*/
@@ -370,9 +377,8 @@ fieldset {
 
 /*Button*/
 #book { 
-    margin: 0 0 20px 30%;
+    margin: 50px 0 20px 30%;
     padding: 5px 30px;
-    margin-top: 50px;
     font-size: 1.5rem;
     background-color: #614a3d;
     color: white;
@@ -382,6 +388,8 @@ fieldset {
 #find-us {
     text-transform: uppercase;
     margin: 150px 0 20px;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
 }
 
 
@@ -391,8 +399,10 @@ fieldset {
 }
 
 #contact-info {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #phone-email { 
@@ -401,7 +411,7 @@ fieldset {
 }
 
 #google-map {
-    margin-bottom: 5% 5% 150px;
+    margin: 5% 5% 150px;
     justify-content: center;
     display: flex;
     max-width: 100%;
@@ -467,6 +477,19 @@ footer > a {
         display: flex;
         text-align: left;
         max-width: 90vw; 
+    }
+    /* Form button*/
+    #book {
+        margin-left: 25%
+    }
+
+    .contact-details {
+        margin-left: 5%;
+    }
+
+    #contact-info,
+    #find-us {
+        margin-top: 100px;
     }
 }
 
@@ -604,6 +627,13 @@ footer > a {
         max-width: 50%;
         margin: 0 auto; 
     }
+
+    #contact-info,
+    #find-us {
+        margin-top: 100px;
+    }
+
+    
 }
 
 
@@ -634,6 +664,7 @@ footer > a {
         line-height: 75px;
         margin: 0 0.5rem;
         letter-spacing: 4px;
+        padding-left: 0;
     }
 
     #home {
@@ -689,6 +720,9 @@ footer > a {
 }
 /* Very large laptops and desktops, 1200 px and up */
 @media screen and (min-width: 1200px) {
+    #logo {
+        padding-left: 10px;
+    }
     .coffee {
         max-width: 50%;
     }
@@ -774,5 +808,9 @@ footer > a {
     .form {
         max-width: 30%;
         margin: 0 auto;
+    }
+
+    #find-us {
+        margin: 150px 0 0;
     }
 }
