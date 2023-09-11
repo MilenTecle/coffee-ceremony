@@ -37,17 +37,17 @@ h4 {
 
 /* Background image, about us page*/
 #page-three {
-    background-image: url('../images/about-us-page.webp');
+    background-image: url('../images/bg-image-form.webp');
 }
 
 .about-us {
     height: 50vh;
-    background: center 20% /cover no-repeat;
+    background: center/cover no-repeat;
 }
 
 /* Background image, booking form*/
 #page-four {
-    background-image: url('../images/bg-image-form.webp')
+    background-image: url('../images/new-form-img.webp');
 }
 
 .book-class {
@@ -382,6 +382,7 @@ fieldset {
     font-size: 1.5rem;
     background-color: #614a3d;
     color: white;
+    border: none;
 }
 
 /* Map and address section */
@@ -711,6 +712,13 @@ footer > a {
         font-size: 1.5rem;
     }
 
+    /*Header image, About us page*/
+    .about-us {
+        about-us {
+            height: 60vh;
+        }
+    }
+
     /* Form on contact page*/
     .form {
         max-width: 40%;
@@ -788,6 +796,12 @@ footer > a {
     }
 
     /* About us page*/
+
+    /*header image */
+    .about-us {
+        height: 80vh;
+    }
+
     .offering {
         margin: 0 auto;
         max-width: 60vw;
