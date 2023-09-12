@@ -8,7 +8,7 @@ body {
    margin: 0;
 }
 
-#intro-text, .v-center {
+#intro-text {
     font-family: 'Nunito Sans', sans-serif;
     align-self: center;
     position: fixed;
@@ -32,6 +32,7 @@ h4 {
 .background-image {
     height: 100vh;
     background: center 20% /cover no-repeat;
+    position: static;
 
 }
 
@@ -476,20 +477,18 @@ footer > a {
     }
 
     /* This will center the coffee brewing on smaller screens*/
-    #home {
-        background-position-x: 38%;
-    }
+    
 
     #intro-text {
         font-size: 100%;
         margin-left: 5%;
     }
 
-    /* This will break the sentence into two lines*/
     span {
         display: block;
     }
 
+   
     /* Adjust the div images and text blocks on coffee ceremony page*/
     #roasting,
     #brewing,
@@ -534,9 +533,7 @@ footer > a {
     }
 
   /* This will center the coffee brewing on smaller screens*/
-    #home {
-        background-position-x: 35%;
-    }
+    
 
     #intro-text {
         font-size: 120%;
@@ -620,11 +617,6 @@ footer > a {
 /* Media query tablets and larger screens, 768 px and up*/
 @media screen and (min-width: 768px) {
    
-
-    /* This will center the coffee brewing*/
-    #home {
-        background-position-x: 30%;
-    }
 
     #learn-more,
     #sign-me-up{
