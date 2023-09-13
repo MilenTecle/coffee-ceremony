@@ -45,16 +45,58 @@ The wireframes were produces via Balsamiq.
 ## Features
  - ### Navigation
 
+   - The navigation bar is fully responsive with four links, to help the user navigate through the site. It is visually clear which site your visiting because the acive site has ha white frame. It is also easy for the user to navigate back via the navigaion bar links, and the logo that leads back to the Home page.
 
-- ### Home Page Image
+   - The navigation bar is fixed so it always remains visible for the user.
+
+   - On smaller screens the navigation bar will show a hamburger icon. The hamburger icon expands when toggled, listing the pages and showing a white frame on the active site.
+
+![Navigation bar](docs/readme-images/navigation-bar.png)
+
+![Navigation mobile](docs/readme-images/navbar-mobile.png)
+
+![Navigation toggled](docs/readme-images/navbar-responsive-toggled.png)
+
+- ### The Home Page 
+    - The home page image is very appealing as for the purpose and curiosity. 
+    - The text, together with the background image gives the user a clear visual perception of what the purpose is.
+
+![Home-page](docs/readme-images/home-page.png)
+
 
 - ### The Ceremony Page
+  - The ceremony page explains what the coffee ceremony is and how it works, with a introductury text.
+  - The introductury text is followed by the "How it works sections".
+  - There are three steps explained with text and images.
+
+  ![The Ceremony](docs/readme-images/the-ceremony.png)
 
 - ### About us Page
+  - The about us page explains what we offer to the user. The price, total amount of time and what is included are described. 
+  - A "to booking" button that takes the user directly to the form for the booking.
+  - A membership is also offered to returning users.
+
+![About us page](docs/readme-images/about-us.png)
 
 - ### Contact Page
+  - The contact page is where you will find the form for booking a class.
+  - Below the booking form are the contact details, such as phone, email and address. The contact details are not real. The phone number and address are generated from [Fake address](https://www.fakexy.com/se-fake-address-generator-greater-stockholm).
+  - After the contact details the user is presented with a map with the location for the coffee ceremony class (also not real).
+
+![Contact page](docs/readme-images/contact-page.png)
+
+![Contact details](docs/readme-images/contact-and-map.png)
+
 
 - ### Footer
+ - The footer contains social media links which takes the user to Facebook, Instgram, Twitter and Youtube.
+ - The links opens in a new tab which allows for the user to navigate easy.
+
+![Footer](docs/readme-images/footer.png)
+
+
+### Features left to implement
+  - A community for members
 
 
 ## Testing
@@ -65,9 +107,14 @@ The wireframes were produces via Balsamiq.
  - ### Accessibility
 
 
-### FormTesting 
+### Form Testing 
+ - The form has been tested to make sure the user can't submit without filling in all the fields that are requried. Once all the fields are filled in, the button to book workes as if you could book a class, fully functional.
 
 ### Links Testing
+ - All navigation links on the site has been tested manually to ensure that they are working, and takes the user to the right page.
+ - All the buttons were tested to ensure that the the links are working correctly.
+ - All the social media links were tested seperatly to make sure the funktion, and open in a new tab.
+
 
 ### Browser Testing
 

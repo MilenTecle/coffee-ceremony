@@ -116,7 +116,9 @@ nav {
 
 /* Nav-toggle */
 #nav-toggle:checked~nav {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -10px;
 }
 
 #nav-toggle {
@@ -572,10 +574,36 @@ footer > a {
 }
 
 
-
 /* Media query tablets and larger screens, 768 px and up*/
 @media screen and (min-width: 768px) {
-   
+   /*Header */
+   nav {
+    display: block;
+    position: relative;
+    width: fit-content;
+    padding-right: 1rem;
+}
+
+#navbar {
+    display: flex;
+    letter-spacing: normal;
+}
+
+#navbar > li {
+    padding-left: 1rem;
+}
+
+.nav-toggle-label {
+    display: none;
+}
+
+#logo {
+    font-size: 130%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+    letter-spacing: 4px;
+    padding-left: 0;
+}
 
     #home {
         background-position-x: 22%;
@@ -649,41 +677,14 @@ footer > a {
 
 /* Large devices, laptops and desktops, 992px and up */
 @media screen and (min-width: 992px) {
-     /*Header */
-     nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #navbar {
-        display: flex;
-    }
-
-    #navbar > li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 130%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-        letter-spacing: 4px;
-        padding-left: 0;
-    }
-
-    #home {
-        background-position-x: -30%;
-    }
-
+    
     #intro-text {
        font-size: 150%;
-       margin-left: 22%;
+       margin-left: 18%;
+    }
+
+    .home-buttons {
+        margin-left: 10%;
     }
 
     /* This will break the sentence into two lines */
@@ -761,6 +762,7 @@ footer > a {
     }
 
      /* Adjust the div images and text blocks on coffee ceremony page*/
+     
      #roasting,
      #brewing,
      #serving {
@@ -769,6 +771,12 @@ footer > a {
          max-width: 50vw;
          margin-left: -5px;
      }
+
+     /* This will center everything on the page*/
+    .coffee {
+        max-width: 50%;
+        margin: 0 auto;
+    }
  
      .text-block {
          display: flex;
@@ -793,6 +801,7 @@ footer > a {
         font-size: 1.5rem;
     }
 
+    
 
     /* About us page*/
 
