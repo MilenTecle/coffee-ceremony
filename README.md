@@ -27,7 +27,7 @@ To give the user clear instructions on how to sign up for a coffee ceremony clas
   ## Design
 
 ### Images
-The imagages used on the Coffee ceremony site are of great importance for the user experience. The images are carefully selected to provide a clear context, and reinforce the content as the concept is new to many users. The dark elements in the pictures are also a good complement to the color scheme of the site.
+The images used on the Coffee ceremony site are of great importance for the user experience. The images are carefully selected to provide a clear context, and reinforce the content as the concept is new to many users. The dark elements in the pictures are also a good complement to the color scheme of the site.
 
 ### Colours
 The colour scheme of the website is black, brown and gray, common colors for coffee websites.

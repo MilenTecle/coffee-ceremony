@@ -8,11 +8,9 @@ body {
    margin: 0;
 }
 
-#intro-text {
+.intro-text {
     font-family: 'Nunito Sans', sans-serif;
-    align-self: center;
-    position: fixed;
-    left: 5%;
+    position: absolute;
     top: 40%;
     color: white;
     text-align: left;
@@ -27,6 +25,7 @@ body {
 .background-image {
     height: 100vh;
     background: center 20% /cover no-repeat;
+    overflow: hidden;
 
 }
 
@@ -118,7 +117,7 @@ nav {
 #nav-toggle:checked~nav {
     display: flex;
     justify-content: flex-end;
-    margin-left: -10px;
+    margin-left: -5%;
 }
 
 #nav-toggle {
@@ -162,6 +161,11 @@ a:hover {
     display: flex;
     height: 100%;
     padding-top: 10%;
+}
+
+.centered {
+    justify-content: center;
+    display: flex;
 }
 
 /* Generic button styles */
@@ -440,14 +444,12 @@ footer > a {
         font-size: 60%;
     }
 
-    /* This will center the coffee brewing on smaller screens*/
-    #home {
-        background-position-x: 40%;
+    .intro-text {
+        font-size: 100%;
     }
 
-    #intro-text {
-        font-size: 100%;
-        margin-left: 5%;
+    span {
+        display: block;
     }
 
     /* Adjust the div images and text blocks on coffee ceremony page*/
@@ -489,13 +491,9 @@ footer > a {
 @media screen and (min-width: 576px) {
    
   /* This will center the coffee brewing on smaller screens*/
-    #home {
-        background-position-x: 35%;
-    }
-
-    #intro-text {
+    
+    .intro-text {
         font-size: 120%;
-        margin-left: 18%; 
     }
 
     .submit {
@@ -577,41 +575,37 @@ footer > a {
 /* Media query tablets and larger screens, 768 px and up*/
 @media screen and (min-width: 768px) {
    /*Header */
-   nav {
-    display: block;
+    nav {
+     display: block;
     position: relative;
     width: fit-content;
     padding-right: 1rem;
 }
 
-#navbar {
+    #navbar {
     display: flex;
     letter-spacing: normal;
-}
+        }
 
-#navbar > li {
-    padding-left: 1rem;
-}
+    #navbar > li {
+        padding-left: 1rem;
+        }
 
-.nav-toggle-label {
-    display: none;
-}
+    .nav-toggle-label {
+        display: none;
+        }
 
-#logo {
-    font-size: 130%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-    letter-spacing: 4px;
-    padding-left: 0;
-}
+    #logo {
+        font-size: 130%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+        letter-spacing: 4px;
+        padding-left: 0;
+     }
 
-    #home {
-        background-position-x: 22%;
-    }
 
-    #intro-text {
+    .intro-text {
         font-size: 120%;
-        margin-left: 25%;
     }
 
     .submit {
@@ -678,13 +672,8 @@ footer > a {
 /* Large devices, laptops and desktops, 992px and up */
 @media screen and (min-width: 992px) {
     
-    #intro-text {
+    .intro-text {
        font-size: 150%;
-       margin-left: 18%;
-    }
-
-    .home-buttons {
-        margin-left: 10%;
     }
 
     /* This will break the sentence into two lines */
@@ -726,10 +715,8 @@ footer > a {
 
     /*Header image, About us page*/
     .about-us {
-        about-us {
             height: 60vh;
         }
-    }
 
     /* Form on contact page*/
     .form {
@@ -738,24 +725,17 @@ footer > a {
     }
 
 }
+
 /* Very large laptops and desktops, 1200 px and up */
 @media screen and (min-width: 1200px) {
     #logo {
         padding-left: 10px;
     }
     
-    #intro-text {
+    .intro-text {
         font-size: 2em;
-        margin-left: 12%;
     }
-    #home {
-        background-position-x: -30%;
-    }
-
-    .home-buttons {
-        margin-right: 15%;
-    }
-
+    
 /* To break the sentence on home page into two lines*/
     span {
         display: block;
