@@ -135,3 +135,20 @@ The live link can be found here - [Coffee ceremony](https://milentecle.github.io
 
 
 
+## Credits
+
+### Code
+ - I used [Stack Overflow](https://stackoverflow.co/), [W3Schools](https://www.w3schools.com/) and [CSS-tricks](https://css-tricks.com/) continuosly throughout the project to better understand concepts, and to find answers whenever I got stuck.
+ - The Navigation bar includning the header and the Footer were built with the help of the Love Running Project.
+
+### Content
+ - The content for the Coffee ceremony page was taken directly from [Wikipedia](https://en.wikipedia.org/wiki/Coffee_ceremony_of_Ethiopia_and_Eritrea). The rest of the content was created by the developer.
+
+### Media
+Images were taken from:
+ - [Shutterstock](https://www.shutterstock.com/)
+ - [Unsplash](https://unsplash.com/)
+
+### Acknowledgements
+
+- Antonio, my mentor, for guiding med throughout the project.

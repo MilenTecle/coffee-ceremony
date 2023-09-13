@@ -731,7 +731,11 @@ footer > a {
     #logo {
         padding-left: 10px;
     }
-    
+
+    .background-image {
+        background: center 30% /cover no-repeat;
+    }
+
     .intro-text {
         font-size: 2em;
     }
@@ -780,8 +784,6 @@ footer > a {
     #how {
         font-size: 1.5rem;
     }
-
-    
 
     /* About us page*/
 
