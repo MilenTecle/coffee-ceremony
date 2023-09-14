@@ -91,14 +91,13 @@ a:hover {
 /* Removes the border on click around the logo */
 #logo,
 a:hover {
-    border: none;
-    font-size: 120%;
-    margin-bottom: 10px;
+    border: none;  
 }
 
 #logo {
     padding-left: 10px;
     letter-spacing: 4px;
+    font-size: 120%;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -250,8 +249,6 @@ ul > li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 90vw;
-
 }
 
 #ceremony {
@@ -439,11 +436,12 @@ footer {
     
     .submit {
         font-size: 60%;
+        margin-top: 10%;
     }
 
     .intro-text {
         font-size: 120%;
-        margin: 0 5% 0 10%;
+        margin: 0 5% 0 5%;
     }
 
     .contact-details {
