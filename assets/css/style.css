@@ -11,10 +11,8 @@ body {
 .intro-text {
     font-family: 'Nunito Sans', sans-serif;
     position: absolute;
-    top: 40%;
+    top: 45%;
     color: white;
-    text-align: left;
-   
 }
 
 /*Background image, home page*/
@@ -170,7 +168,6 @@ a:hover {
 
 /* Generic button styles */
 .submit, 
-#book,
 #booking {
     padding: 10px 20px;
     font-size: 1rem;
@@ -189,7 +186,8 @@ a:hover {
     flex-wrap: wrap;
     font-size: 1em;
 }
-/* Fix the between the image and the text*/
+
+/* Fix the spacing between the image and the text*/
 #offering-intro {
     margin-top: 10%;
 }
@@ -200,15 +198,16 @@ ul > li {
 
 /*Button*/
 #booking {
-    margin-left: 35%;
     background-color: #614a3d;
     color: white;
+    font-weight: bold;
 }
 
 /*Button*/
 #booking-button {
-    margin-bottom: 200px;
-    margin-top: 15%;
+    margin: 15% 0 200px 0;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -241,12 +240,17 @@ ul > li {
     padding: 0 40px;
     padding-bottom: 1em;
     color: #545454;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 
 #ceremony {
     text-align: left;
-    margin: -10px;
+    padding-bottom: 1em;
+    display: flex;
+    width: 90vw;
 }
 
 
@@ -254,35 +258,25 @@ ul > li {
 #roasting {
     background-image: url('../images/roasting-coffee.webp');
     background-size: cover;
-    flex-wrap: wrap;
     height: 250px;
     display: flex;
-    align-items: flex-end;
     width: 90vw;
-    margin-left: -25px;
 }
 
 #brewing {
     background-image: url('../images/brewing-coffee.webp');
     background-size: cover;
-    flex-wrap: wrap;
     height: 250px;
     display: flex;
-    align-items: flex-end;
     width: 90vw;
-    margin-left: -25px;
-    
 }
 
 #serving {
     background-image: url('../images/serving-coffee.webp');
     background-size: cover;
-    flex-wrap: wrap;
     height: 250px;
     display: flex;
-    align-items: flex-end;
     width: 90vw;
-    margin-left: -25px;
 }
 
 
@@ -292,12 +286,11 @@ ul > li {
     display: flex;
     text-align: left;
     width: 90vw;
-    margin-left: -25px;
 }
 
 .steps {
-    margin-left: 40%;
-    margin-bottom: -5px;
+   margin: 0 auto;
+   padding-top: 10%;
 }
 
 #last-block {
@@ -364,12 +357,17 @@ fieldset {
 
 /*Button*/
 #book { 
-    margin: 50px 0 20px 30%;
+    margin: 10% 0 5% 0;
     padding: 5px 30px;
     font-size: 1.5rem;
     background-color: #614a3d;
     color: white;
     border: none;
+}
+
+#form-button {
+    display: flex;
+    justify-content: center;
 }
 
 /* Map and address section */
@@ -452,25 +450,6 @@ footer > a {
         display: block;
     }
 
-    /* Adjust the div images and text blocks on coffee ceremony page*/
-    #roasting,
-    #brewing,
-    #serving {
-        height: 250px;
-        display: flex;
-        max-width: 90vw;
-    }
-
-    .text-block {
-        display: flex;
-        text-align: left;
-        max-width: 90vw; 
-    }
-    /* Form button*/
-    #book {
-        margin-left: 25%
-    }
-
     .contact-details {
         margin-left: 5%;
     }
@@ -510,33 +489,12 @@ footer > a {
     #brewing,
     #serving {
         height: 350px;
-        display: flex;
-        max-width: 90vw;
-        margin-left: -5px;
     }
 
-    .text-block {
-        display: flex;
-        text-align: left;
-        max-width: 90vw;
-        margin-left: -5px;
+    .coffee {
         font-size: 1.5rem;
     }
 
-    #ceremony {
-        display: flex;
-        max-width: fit-content;
-        flex-wrap: wrap;
-        padding-left: 5%;
-        margin-right: 8%;
-        font-size: 1.5rem;
-    }
-
-    #ceremony-text,
-    #how {
-        font-size: 1.5rem;
-    }
-    
     /* About us page */
     .offering {
         margin: 0 auto;
@@ -545,11 +503,7 @@ footer > a {
         flex-wrap: wrap;
         font-size: 1.5rem;
     }
-    /* Button */
-    #booking {
-        font-size: 1.5rem;
-    }
-
+    
     #booking-button {
         margin-top: 10%;
     }
@@ -621,33 +575,7 @@ footer > a {
     #roasting,
     #brewing,
     #serving {
-        height: 400px;
-        display: flex;
-        max-width: 80vw;
-        margin-left: 35px;
-    }
-
-    .text-block {
-        display: flex;
-        max-width: fit-content;
-        flex-wrap: wrap;
-        padding-left: 5%;
-        margin-right: 8%;
-        font-size: 1.5rem;
-    }
-
-    #ceremony {
-        display: flex;
-        max-width: fit-content;
-        flex-wrap: wrap;
-        padding-left: 5%;
-        margin-right: 8%;
-        font-size: 1.5rem;
-    }
-
-    #ceremony-text,
-    #how {
-        font-size: 1.5rem;
+        height: 400px;   
     }
 
     #booking {
@@ -685,33 +613,15 @@ footer > a {
      #roasting,
      #brewing,
      #serving {
-         height: 500px;
-         display: flex;
-         max-width: 80vw;
-         margin-left: 5%;
+         height: 500px;  
      }
  
-     .text-block {
+     .coffee {
          display: flex;
-         max-width: 80vw;
-         flex-wrap: wrap;
-         margin-left: 0;
+         max-width: 75vw;
+         margin: 0 auto;
          font-size: 1.5rem;
      }
-
-     #ceremony {
-        display: flex;
-        max-width: 80vw;
-        flex-wrap: wrap;
-        padding-left: 6%;
-        margin-right: 8%;
-        font-size: 1.5rem;
-    }
-
-    #ceremony-text,
-    #how {
-        font-size: 1.5rem;
-    }
 
     /*Header image, About us page*/
     .about-us {
@@ -751,40 +661,20 @@ footer > a {
      #brewing,
      #serving {
          height: 500px;
-         display: flex;
-         max-width: 50vw;
-         margin-left: -5px;
      }
 
      /* This will center everything on the page*/
     .coffee {
-        max-width: 50%;
+        max-width: 60%;
         margin: 0 auto;
+        font-size: 1.5rem;
+        display: flex;
+    }
+
+    .steps {
+        padding-top: 5%;
     }
  
-     .text-block {
-         display: flex;
-         max-width: 50vw;
-         flex-wrap: wrap;
-         margin: -5%;
-         padding: 5%;
-         font-size: 1.5rem;
-     }
-
-     #ceremony {
-        display: flex;
-        max-width: 50vw;
-        flex-wrap: wrap;
-        margin: -5%;
-         padding: 5%;
-         font-size: 1.5rem;
-    }
-
-    #ceremony-text,
-    #how {
-        font-size: 1.5rem;
-    }
-
     /* About us page*/
 
     /*header image */
@@ -801,7 +691,6 @@ footer > a {
 
     #booking {
         font-size: 2rem;
-        margin-left: 40%;
     }
 
      /* Contact page*/
