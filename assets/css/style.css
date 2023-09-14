@@ -13,6 +13,7 @@ body {
     position: absolute;
     top: 45%;
     color: white;
+    font-size: 120%;
 }
 
 /*Background image, home page*/
@@ -210,6 +211,12 @@ ul > li {
     justify-content: center;
 }
 
+#book:hover,
+#booking:hover {
+    background-color: #4d3c32;
+    cursor: pointer;
+}
+
 
 /* Coffee ceremony page*/
 
@@ -243,6 +250,7 @@ ul > li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 90vw;
 
 }
 
@@ -368,6 +376,7 @@ fieldset {
 #form-button {
     display: flex;
     justify-content: center;
+    margin-right: 5%;
 }
 
 /* Map and address section */
@@ -414,25 +423,15 @@ footer {
     z-index: 99
 }
 
-footer > a {
- text-decoration: none;
 
-}
 #social-media {
     text-align: center;
     padding:  0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-   
-}
-
-#social-media i {
     font-size: 110%;
-    padding: 5%;
-    color: white;
 }
-
 
 
 /*Smaller screens, mobile devices*/
@@ -443,11 +442,8 @@ footer > a {
     }
 
     .intro-text {
-        font-size: 100%;
-    }
-
-    span {
-        display: block;
+        font-size: 120%;
+        margin: 0 5% 0 10%;
     }
 
     .contact-details {
@@ -471,10 +467,6 @@ footer > a {
    
   /* This will center the coffee brewing on smaller screens*/
     
-    .intro-text {
-        font-size: 120%;
-    }
-
     .submit {
         font-size: 70%;
     }
@@ -557,11 +549,6 @@ footer > a {
         padding-left: 0;
      }
 
-
-    .intro-text {
-        font-size: 120%;
-    }
-
     .submit {
         margin-top: -5%;
     }
@@ -643,11 +630,16 @@ footer > a {
     }
 
     .background-image {
-        background: center 30% /cover no-repeat;
+        background: center 20% /cover no-repeat;
+    }
+
+    .centered {
+        font-size: 150%;
+        margin-top: 8%;
     }
 
     .intro-text {
-        font-size: 2em;
+       margin-top: 7%;
     }
     
 /* To break the sentence on home page into two lines*/
@@ -689,7 +681,8 @@ footer > a {
         font-size: 2rem;
     }
 
-    #booking {
+    #booking,
+    #book {
         font-size: 2rem;
     }
 
