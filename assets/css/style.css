@@ -139,7 +139,7 @@ nav {
 .intro-text {
     font-family: 'Nunito Sans', sans-serif;
     position: absolute;
-    top: 40%;
+    top: 42%;
     color: white;
     font-size: 120%;
 }
@@ -477,6 +477,10 @@ footer {
     .intro-text {
         font-size: 105%;
         margin: 0 5% 0 5%;
+    }
+
+    .menu-link:hover {
+        background-color: none;
     }
 
     #nav-toggle:checked~nav {

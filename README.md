@@ -4,7 +4,7 @@ Coffee ceremony is a website intended for coffee lovers and coffee drinkers with
 
 The live link can be found here - [Coffee ceremony](https://milentecle.github.io/coffee-ceremony/)
 
-![Coffee ceremony Am I Responsive Image](docs/readme_images/am-i-responsive.png)
+![Coffee ceremony Am I Responsive Image](docs/readme-images/am-i-responsive.png)
 
 ## Contents
 
@@ -198,8 +198,8 @@ No known bugs.
 ### Device Testing
  - The website was viewed and tested on different devices such as Iphone SE, Iphone 8, Iphone 12 mini and Pro, Ipad Mini, Ipad Air, Laptop and Desktop, to ensure that website is responsive on diffrerent devices. Chrome developer tools was used to check the responsivness on multiple devices.
  - Additionally, I used the following websites to test the responsivness:
-  - Responsinator
-  - Am I responsive
+  - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fmilentecle.github.io%2Fcoffee-ceremony%2F)
+  - [Am I responsive](https://ui.dev/amiresponsive?url=https://milentecle.github.io/coffee-ceremony/)
 
   ## Friends and Family
    - Family memebers and friends were asked to test the website for bugs and overall experience.
