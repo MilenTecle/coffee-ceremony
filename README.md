@@ -91,9 +91,9 @@ The wireframes were produces via Balsamiq.
 ## Features
  - ### Navigation
 
-   - The navigation bar is fully responsive with four links, to help the user navigate through the site. It is visually clear which site your visiting because the acive site has ha white frame. This is enhanced with the background change when hovering over the menu links. It is also easy for the user to navigate back via the navigaion bar links, and the logo that leads back to the Home page.
+   - The navigation bar is fully responsive with four links, to help the user navigate through the site. It is visually clear which site your visiting because the acive site has ha white frame. This is enhanced with the background change when hovering over the menu links. It is also easy for the user to navigate back via the navigation bar links, and the logo that leads back to the Home page.
 
-   - The navigation bar is fixed so it always remains visible for the user.
+   - The navigation bar is fixed so it is always remains visible for the user.
 
    - On smaller screens the navigation bar will show a hamburger icon. The hamburger icon expands when toggled, listing the pages and showing a white frame on the active site.
 
@@ -114,7 +114,7 @@ The wireframes were produces via Balsamiq.
 
 
 - ### The Ceremony Page
-  - The ceremony page explains what the coffee ceremony is and how it works, with a introductury text.
+  - The ceremony page explains what the coffee ceremony is and how it works, with an introductury text.
   - The introductury text is followed by the "How it works sections".
   - There are three steps explained with text and images.
 
@@ -129,8 +129,8 @@ The wireframes were produces via Balsamiq.
 
 - ### Contact Page
   - The contact page is where you will find the form for booking a class.
-  - Below the booking form are the contact details, such as phone, email and address. The contact details are not real. The phone number and address are generated from [Fake address](https://www.fakexy.com/se-fake-address-generator-greater-stockholm).
-  - After the contact details the user is presented with a map with the location for the coffee ceremony class (also not real).
+  - Below the booking form are the contact details, such as phone, email and address. The phone number and address are generated from [Fake address](https://www.fakexy.com/se-fake-address-generator-greater-stockholm).
+  - After the contact details, the user is presented with a map with the location for the coffee ceremony class.
 
 ![Contact page](docs/readme-images/contact-page.png)
 
@@ -138,7 +138,7 @@ The wireframes were produces via Balsamiq.
 
 
 - ### Footer
- - The footer contains social media links which takes the user to Facebook, Instgram, Twitter and Youtube.
+ - The footer contains social media links which takes the user to Facebook, Instagram, Twitter and Youtube.
  - The social media icons will change color when hovered over.
  - The links opens in a new tab which allows for the user to navigate easy.
 
@@ -161,7 +161,7 @@ The wireframes were produces via Balsamiq.
    - [Balsamiq](https://balsamiq.com/) - Was used to create the wireframes before starting the project.
    - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Was used on a daily basis throughout the project to make changes and to test the responsivness.
    - [Font Awesome](https://fontawesome.com/) - Was used for Social Media icons in footer and for Contact information on the contact page.
-   - [Github](https://github.com/) is where the projects code is stored. Git was used for version control by using the Gitpod terminal.
+   - [Github](https://github.com/) - Is where the projects code is stored. Git was used for version control by using the Gitpod terminal.
    - [Google Fonts](https://fonts.google.com/) - Was used to import fonts to the page.
    - [TinyPNG](https://tinypng.com/)- Was used to reduce the file size and keep the image quality.
    - [WEBP Converter](https://cloudconvert.com/webp-converter) - Also used to reduce the file size and keep the image quality.
@@ -189,20 +189,20 @@ No known bugs.
 ### Links Testing
  - All navigation links on the site has been tested manually to ensure that they are working, and takes the user to the right page.
  - All the buttons were tested to ensure that the the links are working correctly.
- - All the social media links were tested seperatly to make sure the funktion, and open in a new tab.
+ - All the social media links were tested seperatly to make sure they function, and opens in a new tab.
 
 
 ### Browser Testing
  - The Website was tested on Microsoft Edge, Google Chrome, Firefox and Safari browsers and no issus were noted.
 
 ### Device Testing
- - The website was viewed and tested on different devices such as Iphone SE, Iphone 8, Iphone 12 mini and Pro, Ipad Mini, Ipad Air, Laptop and Desktop, to ensure that website is responsive on diffrerent devices. Chrome developer tools was used to check the responsivness on multiple devices.
+ - The website was viewed and tested on different devices such as Iphone SE, Iphone 8, Iphone 12 mini and Pro, Ipad Mini, Samsung Galaxy S21, Laptop and Desktop, to ensure that the website is responsive on diffrerent devices. Chrome developer tools was used to check the responsivness on multiple devices.
  - Additionally, I used the following websites to test the responsivness:
   - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fmilentecle.github.io%2Fcoffee-ceremony%2F)
   - [Am I responsive](https://ui.dev/amiresponsive?url=https://milentecle.github.io/coffee-ceremony/)
 
   ## Friends and Family
-   - Family memebers and friends were asked to test the website for bugs and overall experience.
+   - Family members and friends were asked to test the website for bugs and overall experience.
 
 ## Deployment
 
@@ -219,7 +219,7 @@ The live link can be found here - [Coffee ceremony](https://milentecle.github.io
 
 ### Code
  - I used [Stack Overflow](https://stackoverflow.co/), [W3Schools](https://www.w3schools.com/) and [CSS-tricks](https://css-tricks.com/) continuosly throughout the project to better understand concepts, and to find answers whenever I got stuck.
- - The Navigation bar includning the header and the Footer were built with the help of the Love Running Project.
+ - The Navigation bar including the header and the Footer were built with the help of the Love Running Project.
 
 ### Content
  - The content for the Coffee ceremony page was taken directly from [Wikipedia](https://en.wikipedia.org/wiki/Coffee_ceremony_of_Ethiopia_and_Eritrea). The rest of the content was created by the developer.

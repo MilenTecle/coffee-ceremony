@@ -139,7 +139,7 @@ nav {
 .intro-text {
     font-family: 'Nunito Sans', sans-serif;
     position: absolute;
-    top: 42%;
+    top: 45%;
     color: white;
     font-size: 120%;
 }
@@ -515,6 +515,10 @@ footer {
   /* This will break the sentence into two lines*/
     span {
         display: block;
+    }
+
+    .menu-link:hover {
+        background-color: none;
     }
 
     /* Adjust the div images and text blocks on coffee ceremony page*/
