@@ -139,7 +139,7 @@ nav {
 .intro-text {
     font-family: 'Nunito Sans', sans-serif;
     position: absolute;
-    top: 45%;
+    top: 40%;
     color: white;
     font-size: 120%;
 }
@@ -475,7 +475,7 @@ footer {
     }
 
     .intro-text {
-        font-size: 110%;
+        font-size: 105%;
         margin: 0 5% 0 5%;
     }
 

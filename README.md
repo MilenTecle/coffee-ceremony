@@ -6,8 +6,54 @@ The live link can be found here - [Coffee ceremony](https://milentecle.github.io
 
 ![Coffee ceremony Am I Responsive Image](docs/readme_images/am-i-responsive.png)
 
+## Contents
 
-## Site Owner Goals
+- [Site Owner Goals](#site-owner-goals)
+
+- [User Stories](#user-stories)
+  - [First time user](#first-time-user)
+
+- [Design](#design)
+  - [Images](#images)
+  - [Colours](#colours)
+  - [Fonts](#fonts)
+  - [Wireframes](#wireframes)
+
+- [Features](#features)
+  - [Navigation](#navigation)
+  - [The Home Page](#the-home-page)
+  - [The Ceremony Page](#the-ceremony-page)
+  - [About us Page](#about-us-page)
+  - [Contact Page](#contact-page)
+  - [Footer](#footer)
+  - [Features left to implement](#features-left-to-implement)
+
+- [Technologies used](#technologies-used)
+
+- [Languages](#languages)
+- [Frameworks, Libraries and Programs](#frameworks-libraries-programs)
+- [Known bugs](#know-bugs)
+- [Testing](#testing)
+
+- [Validator Testing](#validator-testing)
+  - [HTML](#html)
+  - [CSS](#css)
+  - [Accessibility](#accessibility)
+- [Form Testing](#form-testing)
+- [Links Testing](#links-testing)
+- [Browser Testing](#browser-testing)
+- [Device Testing](#device-testing)
+- [Friends and Family](#friends-and-family)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Code](#code)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
+
+
+
+ ## Site Owner Goals
 
 To share information with the user about the wonderful coffee ceremony and an oppurtunity to try another way of drinking, and enjoying coffee.
 Create curiosity and interest with clear and easily accessible information for the user.
@@ -106,7 +152,7 @@ The wireframes were produces via Balsamiq.
 ## Technologies used
 
 ## Languages 
-  - HTML
+  - HTML5
   - CSS
 
   ## Frameworks, Libraries and Programs
@@ -119,16 +165,20 @@ The wireframes were produces via Balsamiq.
    - [Google Fonts](https://fonts.google.com/) - Was used to import fonts to the page.
    - [TinyPNG](https://tinypng.com/)- Was used to reduce the file size and keep the image quality.
    - [WEBP Converter](https://cloudconvert.com/webp-converter) - Also used to reduce the file size and keep the image quality.
-   - [W3C] - Was used for HTML and CSS Validation.
+   - [W3C](https://www.w3.org/)- Was used for HTML and CSS Validation.
 
-
+## Known bugs
+No known bugs.
 
 ## Testing
 
 ### Validator Testing
  - ### HTML
-  - 
+    - No errors were returned when running every page of the code through the [W3C Markup Validator](https://validator.w3.org/)
+     - [W3C Markup Validator Results](docs/readme-images/w3c-markup-validator-results.png)
  - ### CSS
+  - No errors were returned when running the CSS through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator)
+     - [W3C CSS Validator Results](docs/readme-images/css-validator-results.png)
 
  - ### Accessibility
 
@@ -181,3 +231,4 @@ Images were taken from:
 
 ### Acknowledgements
 - Antonio, my mentor, for guiding med throughout the project.
+- To my family, for all the support and patience.
