@@ -139,7 +139,7 @@ nav {
 .intro-text {
     font-family: 'Nunito Sans', sans-serif;
     position: absolute;
-    top: 45%;
+    top: 43%;
     color: white;
     font-size: 120%;
 }
@@ -480,7 +480,7 @@ footer {
     }
 
     .menu-link:hover {
-        background-color: none;
+        background-color: black;
     }
 
     #nav-toggle:checked~nav {
@@ -518,7 +518,7 @@ footer {
     }
 
     .menu-link:hover {
-        background-color: none;
+        background-color: black;
     }
 
     /* Adjust the div images and text blocks on coffee ceremony page*/
