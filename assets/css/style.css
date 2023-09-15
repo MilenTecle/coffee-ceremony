@@ -8,13 +8,6 @@ body {
    margin: 0;
 }
 
-.intro-text {
-    font-family: 'Nunito Sans', sans-serif;
-    position: absolute;
-    top: 45%;
-    color: white;
-    font-size: 120%;
-}
 
 /*Background image, home page*/
 #home {
@@ -85,7 +78,16 @@ header a {
 a:hover {
     border: 1px solid white;
     color: white;
+}
+
+.menu, .menu-link {
     padding: 0 5px;
+}
+
+.menu-link:hover {
+    background-color: #545454;
+    border-radius: 3px;
+    padding: 5px 5px;
 }
 
 /* Removes the border on click around the logo */
@@ -115,7 +117,7 @@ nav {
 #nav-toggle:checked~nav {
     display: flex;
     justify-content: flex-end;
-    margin-left: -5%;
+    margin-left: -4%;
 }
 
 #nav-toggle {
@@ -132,12 +134,31 @@ nav {
     font-size: 150%;
 }
 
+
+/* Text on home page */
+.intro-text {
+    font-family: 'Nunito Sans', sans-serif;
+    position: absolute;
+    top: 45%;
+    color: white;
+    font-size: 120%;
+}
+
+.centered {
+    justify-content: center;
+    display: flex;
+}
+
 /*Learn more and sign me up button on home page*/
 
 #sign-me-up {
     background-color: white;
     color: black;
     border: 1px solid #614a3d; 
+}
+
+#sign-me-up:hover {
+    background-color: #e1d9d1;
 }
 
 #learn-more {
@@ -147,10 +168,8 @@ nav {
     border: 1px solid #614a3d;
 }
 
-.submit,
-#booking,
-a:hover {
-    text-decoration: none;
+#learn-more:hover {
+    background-color: #0d0d0d;
 }
 
 .home-buttons {
@@ -161,10 +180,12 @@ a:hover {
     padding-top: 10%;
 }
 
-.centered {
-    justify-content: center;
-    display: flex;
+.submit:hover {
+    padding: 10px 20px;
+    font-size: 0.7rem;
 }
+
+
 
 /* Generic button styles */
 .submit, 
@@ -172,6 +193,12 @@ a:hover {
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 2px;
+}
+
+.submit,
+#booking,
+a:hover {
+    text-decoration: none;
 }
 
 
@@ -430,6 +457,14 @@ footer {
     font-size: 110%;
 }
 
+#social-media i:hover {
+    padding: 0;
+    color: #545454;
+}
+
+#social-media a {
+    color: white;
+}
 
 /*Smaller screens, mobile devices*/
 @media screen and (min-width:320px) and (max-width: 575px) {
@@ -440,8 +475,12 @@ footer {
     }
 
     .intro-text {
-        font-size: 120%;
+        font-size: 110%;
         margin: 0 5% 0 5%;
+    }
+
+    #nav-toggle:checked~nav {
+        margin-left: -5%;
     }
 
     .contact-details {

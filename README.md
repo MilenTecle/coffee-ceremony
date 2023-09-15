@@ -45,13 +45,15 @@ The wireframes were produces via Balsamiq.
 ## Features
  - ### Navigation
 
-   - The navigation bar is fully responsive with four links, to help the user navigate through the site. It is visually clear which site your visiting because the acive site has ha white frame. It is also easy for the user to navigate back via the navigaion bar links, and the logo that leads back to the Home page.
+   - The navigation bar is fully responsive with four links, to help the user navigate through the site. It is visually clear which site your visiting because the acive site has ha white frame. This is enhanced with the background change when hovering over the menu links. It is also easy for the user to navigate back via the navigaion bar links, and the logo that leads back to the Home page.
 
    - The navigation bar is fixed so it always remains visible for the user.
 
    - On smaller screens the navigation bar will show a hamburger icon. The hamburger icon expands when toggled, listing the pages and showing a white frame on the active site.
 
 ![Navigation bar](docs/readme-images/navigation-bar.png)
+
+![Navigation bar hover](docs/readme-images/navbar-on-hover.png)
 
 ![Navigation mobile](docs/readme-images/navbar-mobile.png)
 
@@ -60,6 +62,7 @@ The wireframes were produces via Balsamiq.
 - ### The Home Page 
     - The home page image is very appealing as for the purpose and curiosity. 
     - The text, together with the background image gives the user a clear visual perception of what the purpose is.
+    - There are two buttons that will take the user to the "learn-more" page or to the "contact" page. The buttons will slightly change background color upon hovering.
 
 ![Home-page](docs/readme-images/home-page.png)
 
@@ -90,20 +93,43 @@ The wireframes were produces via Balsamiq.
 
 - ### Footer
  - The footer contains social media links which takes the user to Facebook, Instgram, Twitter and Youtube.
+ - The social media icons will change color when hovered over.
  - The links opens in a new tab which allows for the user to navigate easy.
 
 ![Footer](docs/readme-images/footer.png)
 
 
 ### Features left to implement
-  - A community for members
+  - To create a community for members with the oppurtunity to sign up for news, deals and events.
+
+
+## Technologies used
+
+## Languages 
+  - HTML
+  - CSS
+
+  ## Frameworks, Libraries and Programs
+   - [Am I Responsive](https://ui.dev/amiresponsive) - Was used to ensure that the website is responsive on diffrerent devices.
+   - [Responsinator](http://www.responsinator.com/) - Was also used to ensure that the website is responsive on diffrerent devices.
+   - [Balsamiq](https://balsamiq.com/) - Was used to create the wireframes before starting the project.
+   - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Was used on a daily basis throughout the project to make changes and to test the responsivness.
+   - [Font Awesome](https://fontawesome.com/) - Was used for Social Media icons in footer and for Contact information on the contact page.
+   - [Github](https://github.com/) is where the projects code is stored. Git was used for version control by using the Gitpod terminal.
+   - [Google Fonts](https://fonts.google.com/) - Was used to import fonts to the page.
+   - [TinyPNG](https://tinypng.com/)- Was used to reduce the file size and keep the image quality.
+   - [WEBP Converter](https://cloudconvert.com/webp-converter) - Also used to reduce the file size and keep the image quality.
+   - [W3C] - Was used for HTML and CSS Validation.
+
 
 
 ## Testing
 
 ### Validator Testing
  - ### HTML
+  - 
  - ### CSS
+
  - ### Accessibility
 
 
@@ -117,10 +143,16 @@ The wireframes were produces via Balsamiq.
 
 
 ### Browser Testing
+ - The Website was tested on Microsoft Edge, Google Chrome, Firefox and Safari browsers and no issus were noted.
 
 ### Device Testing
+ - The website was viewed and tested on different devices such as Iphone SE, Iphone 8, Iphone 12 mini and Pro, Ipad Mini, Ipad Air, Laptop and Desktop, to ensure that website is responsive on diffrerent devices. Chrome developer tools was used to check the responsivness on multiple devices.
+ - Additionally, I used the following websites to test the responsivness:
+  - Responsinator
+  - Am I responsive
 
-
+  ## Friends and Family
+   - Family memebers and friends were asked to test the website for bugs and overall experience.
 
 ## Deployment
 
@@ -132,8 +164,6 @@ The project was deployed using Github pages with the following steps:
 5. Deployment is confirmed after a couple of minutes by this message "Your site is published at" and there is a link to the web address.
 
 The live link can be found here - [Coffee ceremony](https://milentecle.github.io/coffee-ceremony/)
-
-
 
 ## Credits
 
@@ -150,5 +180,4 @@ Images were taken from:
  - [Unsplash](https://unsplash.com/)
 
 ### Acknowledgements
-
 - Antonio, my mentor, for guiding med throughout the project.
