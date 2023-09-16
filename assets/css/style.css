@@ -517,9 +517,6 @@ footer {
         display: block;
     }
 
-    .menu-link:hover {
-        background-color: black;
-    }
 
     /* Adjust the div images and text blocks on coffee ceremony page*/
     #roasting,
@@ -596,6 +593,10 @@ footer {
 
     .submit {
         margin-top: -5%;
+    }
+
+    .intro-text {
+        font-size: 150%;
     }
 
     /* This will break the sentence into two lines*/
