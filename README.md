@@ -43,6 +43,7 @@ The live link can be found here - [Coffee ceremony](https://milentecle.github.io
 - [Links Testing](#links-testing)
 - [Browser Testing](#browser-testing)
 - [Device Testing](#device-testing)
+- [User Stories Testing](#user-stories-testing)
 - [Friends and Family](#friends-and-family)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -70,7 +71,7 @@ To give the user clear instructions on how to sign up for a coffee ceremony clas
   - As a returning visitor I already understand the concept and purpose of the site.
   - As a returing visitor I have the opportunity to sign up for a membership.
 
-  ## Design
+## Design
 
 ### Images
 The images used on the Coffee ceremony site are of great importance for the user experience. The images are carefully selected to provide a clear context, and reinforce the content as the concept is new to many users. The dark elements in the pictures are also a good complement to the color scheme of the site.
@@ -161,7 +162,8 @@ The wireframes were produces via Balsamiq.
    - [Balsamiq](https://balsamiq.com/) - Was used to create the wireframes before starting the project.
    - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Was used on a daily basis throughout the project to make changes and to test the responsivness.
    - [Font Awesome](https://fontawesome.com/) - Was used for Social Media icons in footer and for Contact information on the contact page.
-   - [Github](https://github.com/) - Is where the projects code is stored. Git was used for version control by using the Gitpod terminal.
+   - [Git](https://git-scm.com/) - Git was used for version control by using the Gitpod terminal to commit and then push to Github.
+   - [Github](https://github.com/) - Is where the projects code is stored after being pushed. 
    - [Google Fonts](https://fonts.google.com/) - Was used to import fonts to the page.
    - [TinyPNG](https://tinypng.com/)- Was used to reduce the file size and keep the image quality.
    - [WEBP Converter](https://cloudconvert.com/webp-converter) - Also used to reduce the file size and keep the image quality.
@@ -181,6 +183,8 @@ No known bugs.
      - [W3C CSS Validator Results](docs/readme-images/css-validator-results.png)
 
  - ### Accessibility
+  - The site achieved a Lighthouse accessibility score of 100%, a confirmation that the fonts and colours chosen are accessible and easy to read.
+    - [Lighthouse result](docs/readme-images/accessibility-results.PNG)
 
 
 ### Form Testing 
@@ -200,6 +204,13 @@ No known bugs.
  - Additionally, I used the following websites to test the responsivness:
   - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fmilentecle.github.io%2Fcoffee-ceremony%2F)
   - [Am I responsive](https://ui.dev/amiresponsive?url=https://milentecle.github.io/coffee-ceremony/)
+
+### User Stories Testing
+ 1. The landing page with the logo and background image will tell the user that this is about coffee, and specifically about the coffee ceremony of Ethiopia and Eritrea. 
+ 2. As a user I can go to the navigation bar to navigate further on the website. 
+ 3. As a user I can also click on the buttons, "Learn more" and "Sign me up" on the landing page to go directly to the "Coffee ceremony" page, or to the "Contact" page where the contact details and booking form are.
+ 4. As a user I can navigate to the "Coffee ceremony" page by clicking on the link in the navigation bar to learn more.
+ 6. As I user can click on the "Contact" link in the navigation bar to find all the contact details and the booking form.
 
   ## Friends and Family
    - Family members and friends were asked to test the website for bugs and overall experience.
