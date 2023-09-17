@@ -40,9 +40,6 @@ body {
     background: center 20% /cover no-repeat;
 }
 
-
-
-
 /*Header*/
 header {
     background-color: black;
@@ -203,6 +200,7 @@ a:hover {
 
 
 /* About us page*/
+
 /* Text*/
 .offering {
     margin: 0 auto;
@@ -230,13 +228,14 @@ ul > li {
     font-weight: bold;
 }
 
-/*Button*/
+
 #booking-button {
     margin: 15% 0 200px 0;
     display: flex;
     justify-content: center;
 }
 
+/* Hovering on button on About us page and Contact page */
 #book:hover,
 #booking:hover {
     background-color: #4d3c32;
@@ -437,7 +436,6 @@ fieldset {
     overflow: hidden;
 }
 /* Footer */
-
 footer {
     background-color: black;
     padding: 0;
@@ -476,11 +474,11 @@ footer {
 
     .intro-text {
         font-size: 105%;
-        margin: -2% 5% 0 5%;
+        margin: -5% 5% 0 5%;
     }
 
     .menu-link:hover {
-        background-color: black;
+        background-color: transparent;
     }
 
     #nav-toggle:checked~nav {
@@ -506,8 +504,6 @@ footer {
 
 @media screen and (min-width: 576px) {
    
-  /* This will center the coffee brewing on smaller screens*/
-    
     .submit {
         font-size: 70%;
     }
@@ -516,7 +512,6 @@ footer {
     span {
         display: block;
     }
-
 
     /* Adjust the div images and text blocks on coffee ceremony page*/
     #roasting,

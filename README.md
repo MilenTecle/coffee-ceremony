@@ -58,7 +58,7 @@ The live link can be found here - [Coffee ceremony](https://milentecle.github.io
 
 To share information with the user about the wonderful coffee ceremony and an oppurtunity to try another way of drinking, and enjoying coffee.
 Create curiosity and interest with clear and easily accessible information for the user.
-A website that is easy to navigate, responsive and gives the user a taste of the coffee ceremony, by using the right colors and images.
+A website that is easy to navigate, responsive and gives the user a taste for the coffee ceremony, by using the right colors and images.
 To give the user clear instructions on how to sign up for a coffee ceremony class, and the possibility for a membership.
 
 ## User Stories
@@ -83,7 +83,7 @@ The colour scheme of the website is black, brown and gray, common colors for cof
 The Nunito Sans font is the font used on the whole website. The font was imported via [Google Fonts](https//:fonts.google.com). Sans Serif is the backup font.
 
 ## Wireframes
-The wireframes were produces via Balsamiq.
+The wireframes were produced via Balsamiq.
 
 [Desktop Wireframe](docs/wireframes/Desktop.png) 
 
@@ -92,9 +92,9 @@ The wireframes were produces via Balsamiq.
 ## Features
  - ### Navigation
 
-   - The navigation bar is fully responsive with four links, to help the user navigate through the site. It is visually clear which site your visiting because the acive site has ha white frame. This is enhanced with the background change when hovering over the menu links. It is also easy for the user to navigate back via the navigation bar links, and the logo that leads back to the Home page.
+   - The navigation bar is fully responsive with four links, to help the user navigate through the site. It is visually clear which site you are visiting because the active site has a white frame. This is enhanced with the background change when hovering over the menu links. It is also easy for the user to navigate back via the navigation bar links, and the logo that leads back to the Home page.
 
-   - The navigation bar is fixed so it is always remains visible for the user.
+   - The navigation bar is fixed so it always remains visible for the user.
 
    - On smaller screens the navigation bar will show a hamburger icon. The hamburger icon expands when toggled, listing the pages and showing a white frame on the active site.
 
@@ -130,7 +130,7 @@ The wireframes were produces via Balsamiq.
 
 - ### Contact Page
   - The contact page is where you will find the form for booking a class.
-  - Below the booking form are the contact details, such as phone, email and address. The phone number and address are generated from [Fake address](https://www.fakexy.com/se-fake-address-generator-greater-stockholm).
+  - Below the booking form are the contact details, such as phone, email and address. The phone number and address were generated from [Fake address](https://www.fakexy.com/se-fake-address-generator-greater-stockholm).
   - After the contact details, the user is presented with a map with the location for the coffee ceremony class.
 
 ![Contact page](docs/readme-images/contact-page.png)
@@ -162,6 +162,7 @@ The wireframes were produces via Balsamiq.
    - [Balsamiq](https://balsamiq.com/) - Was used to create the wireframes before starting the project.
    - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Was used on a daily basis throughout the project to make changes and to test the responsivness.
    - [Font Awesome](https://fontawesome.com/) - Was used for Social Media icons in footer and for Contact information on the contact page.
+   - [Gitpod](https://gitpod.io/) - Was the Codespace used for this project.
    - [Git](https://git-scm.com/) - Git was used for version control by using the Gitpod terminal to commit and then push to Github.
    - [Github](https://github.com/) - Is where the projects code is stored after being pushed. 
    - [Google Fonts](https://fonts.google.com/) - Was used to import fonts to the page.
@@ -193,11 +194,11 @@ No known bugs.
 ### Links Testing
  - All navigation links on the site has been tested manually to ensure that they are working, and takes the user to the right page.
  - All the buttons were tested to ensure that the the links are working correctly.
- - All the social media links were tested seperatly to make sure they function, and opens in a new tab.
+ - All the social media links were tested separately to make sure they function, and opens in a new tab.
 
 
 ### Browser Testing
- - The Website was tested on Microsoft Edge, Google Chrome, Firefox and Safari browsers and no issus were noted.
+ - The Website was tested on Microsoft Edge, Google Chrome, Firefox and Safari browsers and no issues were noted.
 
 ### Device Testing
  - The website was viewed and tested on different devices such as Iphone SE, Iphone 8, Iphone 12 mini and Pro, Ipad Mini, Samsung Galaxy S21, Laptop and Desktop, to ensure that the website is responsive on diffrerent devices. Chrome developer tools was used to check the responsivness on multiple devices.
@@ -206,11 +207,16 @@ No known bugs.
   - [Am I responsive](https://ui.dev/amiresponsive?url=https://milentecle.github.io/coffee-ceremony/)
 
 ### User Stories Testing
+   #### First time user
  1. The landing page with the logo and background image will tell the user that this is about coffee, and specifically about the coffee ceremony of Ethiopia and Eritrea. 
  2. As a user I can go to the navigation bar to navigate further on the website. 
  3. As a user I can also click on the buttons, "Learn more" and "Sign me up" on the landing page to go directly to the "Coffee ceremony" page, or to the "Contact" page where the contact details and booking form are.
  4. As a user I can navigate to the "Coffee ceremony" page by clicking on the link in the navigation bar to learn more.
  6. As I user can click on the "Contact" link in the navigation bar to find all the contact details and the booking form.
+
+   #### Returning user
+ 1. As a user, I am already familiar with the website and understand the concept and purpose of the site.
+ 2. As a user, I know that I can go to the Contact page to find all the contact details.
 
   ## Friends and Family
    - Family members and friends were asked to test the website for bugs and overall experience.
@@ -222,7 +228,7 @@ The project was deployed using Github pages with the following steps:
 2. Select 'Settings' towards the top of the page.
 3. Select 'Pages' from the left menu bar.
 4. Under 'Source', choose the preselected 'Branch' from the dropdown menu and then select the main branch.
-5. Deployment is confirmed after a couple of minutes by this message "Your site is published at" and there is a link to the web address.
+5. Deployment is confirmed after a couple of minutes by the following message "Your site is published at" and there is a link to the web address.
 
 The live link can be found here - [Coffee ceremony](https://milentecle.github.io/coffee-ceremony/)
 
@@ -230,7 +236,7 @@ The live link can be found here - [Coffee ceremony](https://milentecle.github.io
 
 ### Code
  - I used [Stack Overflow](https://stackoverflow.co/), [W3Schools](https://www.w3schools.com/) and [CSS-tricks](https://css-tricks.com/) continuosly throughout the project to better understand concepts, and to find answers whenever I got stuck.
- - The Navigation bar including the header and the Footer were built with the help of the Love Running Project.
+ - The Navigation bar, including the header and the Footer were built with the help of the Love Running Project.
 
 ### Content
  - The content for the Coffee ceremony page was taken directly from [Wikipedia](https://en.wikipedia.org/wiki/Coffee_ceremony_of_Ethiopia_and_Eritrea). The rest of the content was created by the developer.
@@ -242,4 +248,4 @@ Images were taken from:
 
 ### Acknowledgements
 - Antonio, my mentor, for guiding med throughout the project.
-- To my family, for all the support and patience.
+- To my husband and family, for all the support and patience.
